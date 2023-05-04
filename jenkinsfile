@@ -28,9 +28,7 @@ pipeline {
     }
     stage('Import results to Xray') {
       steps {
-        script{
-              step([$class: 'XrayImportBuilder', endpointName: '/junit', importFilePath: 'xray-report.xml', importToSameExecution: 'true', projectKey: params.projectKey, testPlanKey: params.testPlanKey, fixVersion: '1.2', revision: '131', serverInstance: '10be58cc-2776-49a7-be60-b615dc99f4c0'])
-        }  
+        step([$class: 'XrayImportBuilder', endpointName: '/junit', importFilePath: 'xray-report.xml', importToSameExecution: 'true', projectKey: params.projectKey, testPlanKey: params.testPlanKey, fixVersion: '1.2', revision: '131', serverInstance: '10be58cc-2776-49a7-be60-b615dc99f4c0'])
       }
     }
     stage('Extract Variable from log'){
