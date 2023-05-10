@@ -4,8 +4,8 @@
 
 ## Overview
 Code that supports the tutorials:
-    - [Trigger a Jenkins Pipeline](https://docs.getxray.app/display/XRAY/Trigger+a+Jenkins+Pipeline)
-    - [Trigger a GitHub Pipeline](https://docs.getxray.app/display/XRAY/Trigger+a+GitHub+Pipeline)
+- [Trigger a Jenkins Pipeline](https://docs.getxray.app/display/XRAY/Trigger+a+Jenkins+Pipeline)
+- [Trigger a GitHub Pipeline](https://docs.getxray.app/display/XRAY/Trigger+a+GitHub+Pipeline)
 
 Showcasing how to configure, trigger and ship the results back to [Xray Test Management](https://www.getxray.app/) of the Remote Jobs Triggering functionality. We are using Playwright code that is a fork from the [tutorial-js-playwright](https://github.com/Xray-App/tutorial-js-playwright).
 
